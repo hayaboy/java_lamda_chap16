@@ -20,19 +20,19 @@ public class PersonTest {
 		
 		
 		// 2) 매개변수 O(매개변수명만 넣어주세요), return X
-//		p1.action(
-//				(gift)->{
-//					System.out.println(gift);
-//				}
-//				);
+		p1.action(
+				(gift, gift2)->{
+					System.out.println(gift+gift2);
+				}
+				);
 		
 		
 //3) 매개변수 X, return O
-				p1.action(
-						()->{
-							return "마라탕";
-						}
-						);
+//				p1.action(
+//						()->{
+//							return "마라탕";
+//						}
+//						);
 		
 		
 		//4) 매개변수 O, return O
@@ -41,6 +41,10 @@ public class PersonTest {
 //					return "탕후루";
 //							
 //				}
+//				
+////				(x) -> "탕후루"  형태도 가능 		
+//				
+//				
 //				
 //				);
 		

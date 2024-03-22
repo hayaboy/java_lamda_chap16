@@ -8,12 +8,12 @@ public class Person {
 		//workable.work();
 		
 		//2) 매개변수 O, return X
-		//workable.work("과자");
+		workable.work("과자", "사탕");
 		
 		
 		//3) 매개변수 X, return O
-		String gift=workable.work();
-		System.out.println(gift);
+//		String gift=workable.work();
+//		System.out.println(gift);
 		
 		
 		//4) 매개변수 O, return O

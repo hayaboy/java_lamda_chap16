@@ -8,11 +8,11 @@ public interface Workable {
 	//	abstract void work();
 	
 	//2) 매개변수 O, return X
-	//abstract void work(String gift);
+	abstract void work(String gift, String gift2);
 	
 	
 	//3) 매개변수 X, return O
-	abstract String work();
+	//abstract String work();
 	
 	
 	
